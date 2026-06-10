@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://cute-bars-own.loca.lt/api',
 });
 
 // Request interceptor to attach JWT token
