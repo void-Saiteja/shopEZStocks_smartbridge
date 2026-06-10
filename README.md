@@ -100,6 +100,9 @@ smartbridge_project/
 - `POST /api/auth/register` - Create a new user with email, username, and password.
 - `POST /api/auth/login` - Authenticate credentials and return a session JWT.
 - `GET /api/auth/me` - Fetch credentials and remaining virtual balance (Token Required).
+- `GET /api/auth/admin/users` - Get directory list of all registered users (Admin Required).
+- `PUT /api/auth/admin/users/:id` - Adjust a user's role or virtual balance (Admin Required).
+- `DELETE /api/auth/admin/users/:id` - Deactivate/ban a user account (Admin Required).
 
 ### Stock Quotes
 - `GET /api/stocks` - Get list of active simulated stock quotes.
@@ -114,3 +117,5 @@ smartbridge_project/
 - `POST /api/transactions/sell` - Place an order to sell shares of a stock (Token Required).
 - `GET /api/transactions` - Fetch personal trading logs (Token Required).
 - `GET /api/transactions/admin/all` - Inspect system-wide trading logs (Admin Required).
+- `POST /api/transactions/admin/rollback/:id` - Rollback/Void a transaction, restoring cash balance and reverting portfolio holdings (Admin Required).
+
