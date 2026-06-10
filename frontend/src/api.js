@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'https://shopez-backend-saiteja.loca.lt/api',
+  baseURL: 'https://shopez-stocks-backend.onrender.com/api',
 });
 
 // Request interceptor to attach JWT token
