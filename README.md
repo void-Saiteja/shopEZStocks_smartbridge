@@ -1,5 +1,8 @@
 # ShopEZ Stocks - MERN Stock Trading Simulator
 
+[![Google Drive Documentation](https://img.shields.io/badge/Google%20Drive-Documentation-blue?logo=google-drive)](https://drive.google.com/drive/folders/1COmW2Bl_COxNPoH_2mOT3Y0O1VoSzKU3?usp=drive_link)
+
+
 ShopEZ Stocks is a premium, full-stack MERN (MongoDB, Express.js, React.js, Node.js) stock trading simulator. It combines the sleek and user-friendly "ShopEZ" philosophy of effortless transactions with a robust real-time trading dashboard. Users can explore stocks, view interactive historical price trends, simulate buy/sell orders with a virtual balance, and manage their investment portfolios. The platform features role-based access control, real-time pricing simulations, and admin moderation capabilities.
 
 ---
